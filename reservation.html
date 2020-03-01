@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/main.css" />
+
+    <title>Reservation</title>
+</head>
+
+<body>
+    <div class="icon1">
+        <a href="index.html">
+            <img src="./images/Back.png" alt="" />
+        </a>
+    </div>
+    <div class="container-fluid banner" id="banner2">
+        <div class="row justify-content-center">
+            <div class="col-lg-4">
+                <h1 class="reserv1">Reservation</h1>
+                <form>
+                    <div class="form-group">
+                        <label for=" inputName"></label>
+                        <input type="text" class="form-control form-control-lg" id="inputName"
+                            placeholder="Input your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputName"></label>
+                        <input type="text" class="form-control form-control-lg" id="inputEmail"
+                            placeholder="Input your email">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-5">
+                            <label for="phone"></label>
+                            <input type="text" class="form-control form-control-lg" id="phone"
+                                placeholder=" Phone number">
+                        </div>
+                        <div class="form-group col-md-7">
+                            <label for="inputNat"></label>
+                            <select id="inputNat" class="custom-select custom-select-lg" id="inputNat">
+                                <option selected>Select your nationality</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="ExpTrip"></label>
+                        <textarea class="form-control" id="ExpTrip" rows="3"
+                            placeholder="Explain about your trip"></textarea>
+                    </div>
+                    <button class="btn btn-warning btn-block btn-lg" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
